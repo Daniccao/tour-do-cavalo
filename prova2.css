@@ -1,0 +1,35 @@
+caption {
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+table {
+    margin: 0 auto;
+}
+
+td {
+    width: 45px;
+    height: 45px;
+    border: 3px solid black;
+    text-align: center;
+}
+tr:nth-child(2n+1) td:nth-child(2n), tr:nth-child(2n) td:nth-child(2n+1) {
+    background-color: gray;
+}
+img {
+    vertical-align: middle;
+}
+
+fieldset{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+
+li:first-child input{
+    width: 10%;
+}
+
+p{
+    text-align: center;
+}
